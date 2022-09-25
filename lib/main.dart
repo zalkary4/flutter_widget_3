@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/neumorfism_disagne.dart';
+import 'package:flutter_application_1/widgets/animated_icon.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const NumerFismDisagnet(),
+      home: const AnimatedIconWidget(),
     );
   }
 }
