@@ -28,23 +28,21 @@ class _AnimatedIconWidgetState extends State<AnimatedIconWidget>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: GestureDetector(
-          onTap: () {
-            if (_isPlay == false) {
-              _controller.forward();
-              _isPlay = true;
-            } else {
-              _controller.reverse();
-              _isPlay = false;
-            }
-          },
-          child: AnimatedIcon(
-            icon: AnimatedIcons.pause_play,
-            progress: _controller,
-            size: 100,
-          ),
+    return Center(
+      child: GestureDetector(
+        onTap: () {
+          if (_isPlay == false) {
+            _controller.forward();
+            _isPlay = true;
+          } else {
+            _controller.reverse();
+            _isPlay = false;
+          }
+        },
+        child: AnimatedIcon(
+          icon: AnimatedIcons.pause_play,
+          progress: _controller,
+          size: 100,
         ),
       ),
     );
