@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/flutter_wrap_widget.dart';
+import 'package:flutter_application_1/widgets/cupertino_date_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: FlutterWrapWidget(),
+      home: CupertinoDatePickerWidget(),
     );
   }
 }
