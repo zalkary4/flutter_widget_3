@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/cupertino_tab_bar_widget.dart';
+import 'package:flutter_application_1/widgets/data_table_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: CupertinoTabBarWidget(),
+      home: DataTableWidget(),
     );
   }
 }
