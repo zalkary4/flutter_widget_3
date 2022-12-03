@@ -11,7 +11,7 @@ class DraggableScrollableSheet22 extends StatelessWidget {
           color: Colors.orangeAccent,
           child: ListView.builder(
             controller: scrollController,
-            itemCount: 25,
+            itemCount: 5,
             itemBuilder: (BuildContext context, int index) {
               return ListTile(
                 title: Text('Item $index'),
