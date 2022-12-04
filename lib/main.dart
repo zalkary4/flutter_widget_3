@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/button2_widget.dart';
+import 'package:flutter_application_1/widgets/druggable_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: Button2Widget(),
+      home: DraggableWidget2(),
     );
   }
 }
