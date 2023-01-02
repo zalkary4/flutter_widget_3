@@ -7,7 +7,7 @@ class DrawerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Mapp'),
+        title: const Text('Flutter Maps'),
       ),
       body: Center(
         child: Builder(builder: (context) {
