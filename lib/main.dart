@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/elevated_button_widget.dart';
+import 'widgets/epanded_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: ElevatedButtonWidget(),
+      home: EpandedWidget(),
     );
   }
 }
