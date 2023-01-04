@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/drawer_widget.dart';
+
+import 'widgets/elevated_button_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: DrawerWidget(),
+      home: ElevatedButtonWidget(),
     );
   }
 }

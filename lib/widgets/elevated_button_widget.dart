@@ -19,15 +19,15 @@ class _ElevatedButtonWidgetState extends State<ElevatedButtonWidget> {
             child: Text('Disable'),
           ),
           const SizedBox(height: 30),
-          const ElevatedButton(
-            onPressed: null,
-            child: Text('Disable'),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Disable'),
           ),
           const SizedBox(height: 30),
           ElevatedButton.icon(
             onPressed: () {},
             label: const Text('Enabled'),
-            icon: const Icon(Icons.message),
+            icon: const Icon(Icons.account_balance_wallet_sharp),
           ),
         ],
       ),
