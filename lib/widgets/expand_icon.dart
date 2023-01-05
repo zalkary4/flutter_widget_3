@@ -46,7 +46,7 @@ class _ExpandIconWidgetsState extends State<ExpandIconWidgets> {
           if (_isExpanded)
             const Padding(
               padding: EdgeInsets.all(15),
-              child: Text('Flutter Map'),
+              child: Text('Flutter Maps'),
             ),
         ],
       ),
