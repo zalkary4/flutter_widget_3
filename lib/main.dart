@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'widgets/fade_transition_widget.dart';
+import 'package:flutter_application_1/widgets/filter_chip_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: FadeTransitionWidget(),
+      home: FilterChipWidget(),
     );
   }
 }
