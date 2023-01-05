@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'widgets/expand_icon.dart';
+import 'package:flutter_application_1/widgets/expansion_panel_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: ExpandIconWidgets(),
+      home: ExpansionPanelListWidget(),
     );
   }
 }
