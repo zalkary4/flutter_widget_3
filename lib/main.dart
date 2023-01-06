@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/form_widget.dart';
+
+import 'widgets/fractionaly_sized_box_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: FormWidget(),
+      home: FractionalySizedBoxWidget(),
     );
   }
 }
