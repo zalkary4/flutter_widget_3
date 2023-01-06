@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/default_text_widget.dart';
+import 'widgets/future_builder_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: DefaultTextWidget(),
+      home: FutureBuilderWidget(),
     );
   }
 }
