@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/floating_action_button_widget.dart';
+import 'package:flutter_application_1/widgets/flow_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: FloatingActionButtonWidget(),
+      home: FlowWidget(),
     );
   }
 }
