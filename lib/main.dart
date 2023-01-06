@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/fractionaly_sized_box_widget.dart';
+import 'widgets/default_text_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: FractionalySizedBoxWidget(),
+      home: DefaultTextWidget(),
     );
   }
 }
