@@ -21,7 +21,7 @@ class _ExpandIconWidgetsState extends State<ExpandIconWidgets> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Container(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(11),
                   child: const Text(
                     'Title',
                     style: TextStyle(
@@ -45,7 +45,7 @@ class _ExpandIconWidgetsState extends State<ExpandIconWidgets> {
           ),
           if (_isExpanded)
             const Padding(
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(16),
               child: Text('Flutter Maps'),
             ),
         ],
