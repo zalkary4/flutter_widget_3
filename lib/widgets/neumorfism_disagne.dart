@@ -11,7 +11,7 @@ class NumerFismDisagnetState extends State<NumerFismDisagnet> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[800],
       body: Center(
         child: Container(
           padding: const EdgeInsets.all(50),
@@ -21,7 +21,7 @@ class NumerFismDisagnetState extends State<NumerFismDisagnet> {
             shape: BoxShape.circle,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.shade500,
+                color: Colors.grey.shade800,
                 offset: const Offset(-4, -4),
                 blurRadius: 15,
                 spreadRadius: 1,
@@ -37,7 +37,7 @@ class NumerFismDisagnetState extends State<NumerFismDisagnet> {
           child: Image.network(
             'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20220821121934',
             height: 120,
-            color: Colors.grey[700],
+            color: Colors.blue[700],
           ),
         ),
       ),
