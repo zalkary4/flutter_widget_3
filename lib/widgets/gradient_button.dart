@@ -13,7 +13,7 @@ class _GradientButtonWidgetState extends State<GradientButtonWidget> {
     return Scaffold(
       body: Center(
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(5),
+          borderRadius: BorderRadius.circular(6),
           child: Stack(
             children: [
               Positioned.fill(
@@ -21,7 +21,7 @@ class _GradientButtonWidgetState extends State<GradientButtonWidget> {
                   decoration: const BoxDecoration(
                     gradient: LinearGradient(
                       colors: <Color>[
-                        Color(0XFF0D47A1),
+                        Color(0XFF0D47A6),
                         Color(0XFF1976D2),
                         Color(0XFF42A5F5),
                       ],
