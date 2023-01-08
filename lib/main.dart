@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/cupertino_tab_widget.dart';
+import 'widgets/gesture_detector_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //     primarySwatch: Colors.blue,
       //     ),
-      home: CupertinoTabWidget(),
+      home: Scaffold(
+        body: GestureDetectorWidget(),
+      ),
     );
   }
 }
