@@ -13,19 +13,21 @@ class _FittedBoxWidgetState extends State<FittedBoxWidget> {
     return Scaffold(
       body: Center(
         child: Container(
-          // height: 25,
-          // width: 100,
-          width: double.infinity,
-          color: Colors.orange,
-          child: const FittedBox(
-            child: Text(
-              'This is a pretty text',
-              style: TextStyle(
-                color: Colors.black,
-              ),
+            // height: 25,
+            // width: 100,
+            // width: double.infinity,
+            color: Colors.orange,
+            child: const Text('Hello Guys',
+                style: TextStyle(fontSize: 22), textAlign: TextAlign.center)
+            // child: const FittedBox(
+            //   child: Text(
+            //     'This is a pretty лждлыэвдслэывлсэыв text',
+            //     style: TextStyle(
+            //       color: Colors.black,
+            //     ),
+            //   ),
+            // ),
             ),
-          ),
-        ),
       ),
     );
   }

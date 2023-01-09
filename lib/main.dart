@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/gesture_detector_widget.dart';
+import 'widgets/fitted_box_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       //     primarySwatch: Colors.blue,
       //     ),
       home: Scaffold(
-        body: GestureDetectorWidget(),
+        body: FittedBoxWidget(),
       ),
     );
   }

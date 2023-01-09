@@ -13,7 +13,7 @@ class _FlutterWrapWidgetState extends State<FlutterWrapWidget> {
     child: Image.network(
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/1280px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg',
       height: 100,
-      width: 120,
+      width: 130,
       fit: BoxFit.cover,
     ),
   );
