@@ -35,7 +35,7 @@ class _GradientButtonWidgetState extends State<GradientButtonWidget> {
                       padding: const EdgeInsets.all(14),
                       textStyle: const TextStyle(fontSize: 12)),
                   onPressed: () {},
-                  child: const Text('Gradient'))
+                  child: const Text('Gradient 2'))
             ],
           ),
         ),
