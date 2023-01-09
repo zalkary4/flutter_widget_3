@@ -12,15 +12,15 @@ class _TableRowWidgetState extends State<TableRowWidget> {
   Widget build(BuildContext context) {
     TableRow tableRow = const TableRow(children: <Widget>[
       Padding(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(15),
         child: Text("Cell 1"),
       ),
       Padding(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(15),
         child: Text("Cell 2"),
       ),
       Padding(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(15),
         child: Text("Cell 3"),
       )
     ]);
