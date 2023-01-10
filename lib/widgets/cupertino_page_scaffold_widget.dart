@@ -16,7 +16,7 @@ class _CupertinoPageScaffoldWidgetState
       backgroundColor: const Color.fromARGB(255, 18, 32, 47),
       navigationBar: CupertinoNavigationBar(
         backgroundColor: CupertinoColors.systemGrey.withOpacity(0.6),
-        middle: const Text('flutter Mapp'),
+        middle: const Text('flutter Mappppp'),
       ),
       child: Stack(
         children: [
