@@ -27,7 +27,7 @@ class _CupertinoPickerWidgetState extends State<CupertinoPickerWidget> {
                   itemExtent: 30,
                   scrollController: FixedExtentScrollController(initialItem: 1),
                   children: const [
-                    Text('0'),
+                    Text('1'),
                     Text('2'),
                     Text('3'),
                   ],
