@@ -14,7 +14,7 @@ class _AnimatedIconWidgetState extends State<AnimatedIconWidget>
   @override
   void initState() {
     _controller = AnimationController(
-      duration: const Duration(seconds: 1),
+      duration: const Duration(seconds: 2),
       vsync: this,
     );
     super.initState();
