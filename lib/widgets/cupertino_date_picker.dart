@@ -20,7 +20,7 @@ class _CupertinoDatePickerWidgetState extends State<CupertinoDatePickerWidget> {
             showCupertinoModalPopup(
               context: context,
               builder: (BuildContext context) => SizedBox(
-                height: 260,
+                height: 250,
                 child: CupertinoDatePicker(
                   backgroundColor: Colors.white,
                   initialDateTime: dateTime,
