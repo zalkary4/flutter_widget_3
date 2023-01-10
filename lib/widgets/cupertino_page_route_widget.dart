@@ -37,7 +37,7 @@ class PageTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.blueAccent,
       body: Center(
         child: Text('Page two'),
       ),
