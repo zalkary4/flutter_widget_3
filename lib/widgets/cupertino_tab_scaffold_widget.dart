@@ -18,7 +18,7 @@ class _CupertinoTabScaffoldWidgetState
         tabBar: CupertinoTabBar(items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.home),
-            label: 'Home',
+            label: 'Homee',
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.settings),
