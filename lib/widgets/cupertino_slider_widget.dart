@@ -17,7 +17,7 @@ class _CupertinoSliderWidgetState extends State<CupertinoSliderWidget> {
         width: double.infinity,
         child: Column(
           children: [
-            const SizedBox(height: 50),
+            const SizedBox(height: 48),
             Text(_currentValue.toString()),
             const SizedBox(
               height: 50,
