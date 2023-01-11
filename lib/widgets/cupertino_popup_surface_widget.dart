@@ -25,7 +25,7 @@ class _CupertinoPopupSurfaceWidgetState
                     color: CupertinoColors.white,
                     alignment: Alignment.center,
                     width: double.infinity,
-                    height: 400,
+                    height: 390,
                     child: Center(
                       child: CupertinoButton(
                         child: const Text('Close'),
