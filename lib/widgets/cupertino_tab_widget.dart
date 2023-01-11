@@ -20,7 +20,7 @@ class _CupertinoTabWidgetState extends State<CupertinoTabWidget> {
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.settings),
-            label: 'Settings',
+            label: 'Settingss',
           ),
         ],
       ),
