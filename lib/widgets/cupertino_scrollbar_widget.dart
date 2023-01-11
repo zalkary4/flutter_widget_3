@@ -15,7 +15,7 @@ class _CupertinoScrollbarWidgetState extends State<CupertinoScrollbarWidget> {
       child: CupertinoScrollbar(
         thickness: 6.0,
         thicknessWhileDragging: 10.0,
-        radius: const Radius.circular(34.0),
+        radius: const Radius.circular(35.0),
         radiusWhileDragging: Radius.zero,
         child: ListView.builder(
           itemCount: 50,
@@ -23,7 +23,7 @@ class _CupertinoScrollbarWidgetState extends State<CupertinoScrollbarWidget> {
             return Center(
               child: Text(
                 '$index',
-                style: const TextStyle(fontSize: 30),
+                style: const TextStyle(fontSize: 28),
               ),
             );
           },
