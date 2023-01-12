@@ -9,7 +9,7 @@ class DefaultTextWidget extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text('Flutter Mapp'),
+          const Text('Flutter Map'),
           DefaultTextStyle(
             style: const TextStyle(
               fontSize: 36,
