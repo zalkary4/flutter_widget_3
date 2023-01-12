@@ -48,8 +48,8 @@ class _DecoratedBoxTransitionWidgetState
         child: DecoratedBoxTransition(
           decoration: decorationTween.animate(_controller),
           child: Container(
-            width: 250,
-            height: 250,
+            width: 240,
+            height: 240,
             padding: const EdgeInsets.all(10),
             child: const FlutterLogo(),
           ),
