@@ -12,7 +12,7 @@ class DrawerWidget extends StatelessWidget {
       body: Center(
         child: Builder(builder: (context) {
           return ElevatedButton(
-            child: const Text('Open Drawer'),
+            child: const Text('Open Drawerr'),
             onPressed: () {
               Scaffold.of(context).openEndDrawer();
             },
