@@ -58,7 +58,7 @@ class _DraggableWidget2State extends State<DraggableWidget2> {
                   height: 200,
                   color: accepted.isEmpty ? caughtColor : Colors.green.shade200,
                   // color: accepted.isEmpty ? caughtColor : Colors.green.shade200,
-                  child: const Center(child: Text('Drag here')),
+                  child: const Center(child: Text('Drag heree')),
                 );
               },
             ),
