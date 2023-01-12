@@ -50,7 +50,7 @@ class DataTableWidget extends StatelessWidget {
               Text('Max'),
             ),
             DataCell(
-              Text('30'),
+              Text('31'),
             ),
             DataCell(
               Text('red'),
