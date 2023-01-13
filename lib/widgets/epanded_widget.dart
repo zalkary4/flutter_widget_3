@@ -16,7 +16,7 @@ class _EpandedWidgetState extends State<EpandedWidget> {
           flex: 2,
           child: Container(
             color: Colors.blue,
-            height: 200,
+            height: 201,
           ),
         ),
         Expanded(
