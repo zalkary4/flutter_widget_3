@@ -21,7 +21,7 @@ class _ExpandIconWidgetsState extends State<ExpandIconWidgets> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Container(
-                  padding: const EdgeInsets.all(11),
+                  padding: const EdgeInsets.all(10),
                   child: const Text(
                     'Title',
                     style: TextStyle(
