@@ -18,12 +18,12 @@ class _ElevatedButtonWidgetState extends State<ElevatedButtonWidget> {
             onPressed: null,
             child: Text('Disable'),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 32),
           ElevatedButton(
             onPressed: () {},
             child: const Text('Disable'),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 32),
           ElevatedButton.icon(
             onPressed: () {},
             label: const Text('Enabled'),
