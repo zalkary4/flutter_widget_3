@@ -21,7 +21,7 @@ class _FilterChipWidgetState extends State<FilterChipWidget> {
               isSelected = !isSelected;
             });
           },
-          avatar: const Text('O'),
+          avatar: const Text('O0'),
         ),
       ),
     );
