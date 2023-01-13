@@ -31,7 +31,7 @@ class _FadeTransitionWidgetState extends State<FadeTransitionWidget>
         child: FadeTransition(
           opacity: _animation,
           child: const FlutterLogo(
-            size: 300,
+            size: 301,
           ),
         ),
       ),
