@@ -13,7 +13,7 @@ class _FlutterLogoWithTextState extends State<FlutterLogoWithText> {
     return const Scaffold(
       body: Center(
         child: FlutterLogo(
-          size: 200,
+          size: 210,
           style: FlutterLogoStyle.stacked,
           textColor: Colors.orange,
         ),
