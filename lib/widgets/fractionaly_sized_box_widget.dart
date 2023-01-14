@@ -7,7 +7,7 @@ class FractionalySizedBoxWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: FractionallySizedBox(
-        widthFactor: 0.5,
+        widthFactor: 0.6,
         heightFactor: 0.9,
         child: Container(
           color: Colors.amberAccent,
