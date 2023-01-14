@@ -55,7 +55,6 @@ class _FlutterWrapWidgetState extends State<FlutterWrapWidget> {
             _image,
             _image,
             _image,
-            _image,
           ],
         ),
       ),
