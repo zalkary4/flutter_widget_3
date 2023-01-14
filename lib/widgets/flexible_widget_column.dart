@@ -32,7 +32,7 @@ class _FlexibleWidgetColumnState extends State<FlexibleWidgetColumn> {
               flex: 3,
               child: Container(
                 height: 200,
-                color: Colors.red,
+                color: Colors.blue,
               ),
             ),
           ],

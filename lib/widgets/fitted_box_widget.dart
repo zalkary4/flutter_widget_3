@@ -17,7 +17,7 @@ class _FittedBoxWidgetState extends State<FittedBoxWidget> {
             // width: 100,
             // width: double.infinity,
             color: Colors.orange,
-            child: const Text('Hello Guys',
+            child: const Text('Hello',
                 style: TextStyle(fontSize: 22), textAlign: TextAlign.center)
             // child: const FittedBox(
             //   child: Text(
