@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/grid_paper_widget.dart';
+import 'widgets/hero_widget_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       //       .copyWith(background: Colors.orangeAccent),
       // ),
       home: Scaffold(
-        body: GridPaperWidget(),
+        body: HeroWidget2(),
       ),
     );
   }
