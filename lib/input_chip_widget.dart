@@ -22,7 +22,7 @@ class _InputChipWidgetState extends State<InputChipWidget> {
           );
         },
         selected: isSelected,
-        selectedColor: Colors.white38,
+        selectedColor: Colors.white54,
         deleteIcon: const Icon(Icons.cancel_outlined),
         onDeleted: () {},
         avatar: const CircleAvatar(
