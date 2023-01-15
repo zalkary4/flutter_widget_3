@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/indexed_stack_widget1.dart';
+
+import 'widgets/listener_courser_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: IndexedStackWidget1(),
+        body: ListenerCourserWidget(),
       ),
     );
   }
