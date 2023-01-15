@@ -15,7 +15,7 @@ class HeroWidget2 extends StatelessWidget {
           builder: (context) => const SecondPage222(),
         ),
       ),
-      title: const Text('click on me'),
+      title: const Text('click on mee'),
     );
   }
 }
