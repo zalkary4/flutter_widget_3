@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'widgets/icon_button_widget.dart';
+import 'package:flutter_application_1/widgets/indexed_stack_widget1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,13 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      // title: 'Flutter Demo',
-      // theme: ThemeData(
-      //   colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
-      //       .copyWith(background: Colors.orangeAccent),
-      // ),
       home: Scaffold(
-        body: IconButtonWidget(),
+        body: IndexedStackWidget1(),
       ),
     );
   }
