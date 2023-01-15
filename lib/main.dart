@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/grid_tile_widget.dart';
+
+import 'widgets/grid_paper_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       //     primarySwatch: Colors.blue,
       //     ),
       home: Scaffold(
-        body: GridTileWidget(),
+        body: GridPaperWidget(),
       ),
     );
   }
