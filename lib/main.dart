@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/input_chip_widget.dart';
+import 'package:flutter_application_1/interaktive-view_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: InputChipWidget(),
+        body: InteraktiveViewWidget(),
       ),
     );
   }
