@@ -8,7 +8,7 @@ class StreamBuilderWidget extends StatefulWidget {
 }
 
 Stream<int> generateStream = (() async* {
-  await Future<void>.delayed(const Duration(seconds: 2));
+  await Future<void>.delayed(const Duration(seconds: 3));
   yield 1;
   await Future<void>.delayed(const Duration(seconds: 1));
   yield 2;

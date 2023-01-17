@@ -21,7 +21,7 @@ class _TableRowWidgetState extends State<TableRowWidget> {
       ),
       Padding(
         padding: EdgeInsets.all(15),
-        child: Text("Cell 3"),
+        child: Text("Cell 6"),
       )
     ]);
     return Scaffold(
