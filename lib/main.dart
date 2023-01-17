@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/drag_target_widget2.dart';
+import 'widgets/layout_builder_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: DragTargetWidget2(),
+        body: LayoutBuilderWidget(),
       ),
     );
   }
