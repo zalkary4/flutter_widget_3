@@ -30,7 +30,7 @@ class _DragTargetWidget2State extends State<DragTargetWidget2> {
                   style: TextStyle(
                     color: Colors.white,
                     decoration: TextDecoration.none,
-                    fontSize: 18.0,
+                    fontSize: 20.0,
                   ),
                 ),
               ),
