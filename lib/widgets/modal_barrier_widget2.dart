@@ -37,7 +37,7 @@ class _ModalBarrierWidget2State extends State<ModalBarrierWidget2> {
                   },
                 );
               },
-              color: Colors.blue,
+              color: Colors.red,
             ),
           )
       ],
