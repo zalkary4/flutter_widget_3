@@ -16,7 +16,7 @@ class MaterialBannerWidget2 extends StatelessWidget {
             backgroundColor: Colors.white12,
             actions: <Widget>[
               TextButton(
-                child: const Text('Dismiss'),
+                child: const Text('Dismis'),
                 onPressed: () {
                   ScaffoldMessenger.of(context).hideCurrentMaterialBanner();
                 },
