@@ -14,7 +14,7 @@ class NumerFismDisagnetState extends State<NumerFismDisagnet> {
       backgroundColor: Colors.grey[800],
       body: Center(
         child: Container(
-          padding: const EdgeInsets.all(45),
+          padding: const EdgeInsets.all(40),
           decoration: BoxDecoration(
             color: Colors.grey[300],
             // borderRadius: BorderRadius.circular(12),
