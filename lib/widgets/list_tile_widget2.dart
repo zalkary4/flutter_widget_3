@@ -16,7 +16,7 @@ class _ListTileWidget2State extends State<ListTileWidget2> {
         tileColor: Colors.orangeAccent,
         onTap: () {},
         leading: const Icon(Icons.person),
-        trailing: const Icon(Icons.menu),
+        trailing: const Icon(Icons.access_alarm),
       ),
     );
   }
