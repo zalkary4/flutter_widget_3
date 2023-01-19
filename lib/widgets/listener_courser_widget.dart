@@ -59,7 +59,7 @@ class _ListenerCourserWidgetState extends State<ListenerCourserWidget> {
             Text(
               'Curser: (${x.toStringAsFixed(2)}, ${y.toStringAsFixed(2)})',
               style: const TextStyle(
-                fontSize: 40,
+                fontSize: 38,
               ),
             ),
           ],
