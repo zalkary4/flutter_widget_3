@@ -16,7 +16,7 @@ class _InteraktiveViewWidgetState extends State<InteraktiveViewWidget> {
         boundaryMargin: const EdgeInsets.all(double.infinity),
         child: Scaffold(
           appBar: AppBar(
-            title: const Text('Flutter Mapp'),
+            title: const Text('Flutter Mappp'),
           ),
         ),
       ),
