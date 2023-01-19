@@ -8,7 +8,7 @@ class ListViewSeparatede extends StatelessWidget {
     return ListView.separated(
       itemBuilder: (BuildContext context, int index) {
         return ListTile(
-          title: const Text('flutter Mapp'),
+          title: const Text('flutter M'),
           tileColor: Colors.orangeAccent,
           onTap: () {},
           leading: const Icon(Icons.person),
