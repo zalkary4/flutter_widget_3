@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/data_picker_widget2.dart';
+import 'package:flutter_application_1/date_range_picker_widget2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: DataPickerWidget2(),
+        body: DateRangePickerWidget2(),
       ),
     );
   }
