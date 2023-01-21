@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/data_column_widget2.dart';
+import 'widgets/data_row_widget2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: DataColumnWidget2(),
+        body: DataRowWidget2(),
       ),
     );
   }
