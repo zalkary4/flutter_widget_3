@@ -35,11 +35,6 @@ class _FractionalTranslationWidget2State
             width: 100,
           ),
         ),
-        // Container(
-        //   color: Colors.blueGrey,
-        //   height: 100,
-        //   width: 100,
-        // ),
       ],
     );
   }
