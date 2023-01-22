@@ -17,12 +17,32 @@ class _LiniearProgressIndicatorWidget2State
   void initState() {
     controller = AnimationController(
       vsync: this,
-    );
+      duration: const Duration(seconds: 5),
+    )..addListener(() {
+        setState(() {});
+      });
+    controller.repeat(reverse: true);
     super.initState();
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Container();
+    return Padding(
+      padding: const EdgeInsets.all(40),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          LinearProgressIndicator(
+            value: controller.value,
+          ),
+          const LinearProgressIndicator()
+        ],
+      ),
+    );
   }
 }
