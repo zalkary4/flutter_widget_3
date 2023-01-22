@@ -16,7 +16,10 @@ class _DecorateBoxWidget2State extends State<DecorateBoxWidget2> {
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: RadialGradient(
-            colors: [Colors.deepOrange, Colors.red],
+            colors: [
+              Colors.deepOrange,
+              Colors.blue,
+            ],
           ),
         ),
       ),
