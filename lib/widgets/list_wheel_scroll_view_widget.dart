@@ -13,7 +13,7 @@ class _ListWheelScrollViewWidget2State
   @override
   Widget build(BuildContext context) {
     return ListWheelScrollView(
-      itemExtent: 100,
+      itemExtent: 90,
       children: List.generate(
         20,
         (index) => ListTile(
