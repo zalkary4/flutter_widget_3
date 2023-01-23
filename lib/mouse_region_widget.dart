@@ -27,6 +27,38 @@ class _MouseRegionWidgetState extends State<MouseRegionWidget> {
             y = details.position.dy;
           });
         },
+        onExit: (PointerEvent details) {
+          setState(() {
+            exitCount++;
+          });
+        },
+        child: Container(
+          color: Colors.orangeAccent,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Enters: $enterCount',
+                style: const TextStyle(
+                  fontSize: 40,
+                ),
+              ),
+              Text(
+                'Exits: $exitCount',
+                style: const TextStyle(
+                  fontSize: 40,
+                ),
+              ),
+              Text(
+                'Curser: (${x.toStringAsFixed(2)}, ${y.toStringAsFixed(2)}  )',
+                style: const TextStyle(
+                  fontSize: 25,
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
