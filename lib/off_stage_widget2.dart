@@ -20,7 +20,7 @@ class _OffStageWidget2State extends State<OffStageWidget2> {
               offstage: isHided,
               child: const Icon(
                 Icons.flutter_dash,
-                size: 100,
+                size: 150,
               ),
             ),
             ElevatedButton(
